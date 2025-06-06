@@ -27,6 +27,8 @@ function guessPlus3() {
   guessEl.textContent = guessScore;
 }
 function reset() {
-    homeEl.textContent = 0
-    guessEl.textContent = 0
+  homeScore = 0;
+  guessScore = 0;
+  homeEl.textContent = homeScore;
+  guessEl.textContent = guessScore;
 }
