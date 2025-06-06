@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h3 class="home">HOME</h3>
+        <!-- homeScore section -->
+        <p class="number" id="homeScore">0</p>
+        <!-- homeScore buttons -->
+        <div class="btn-el">
+          <button class="btn" onclick="homePlus1()">+1</button>
+          <button class="btn" onclick="homePlus2()">+2</button>
+          <button class="btn" onclick="homePlus3()">+3</button>
+        </div>
+      </div>
+      <div class="title">
+        <h3 class="guest">GUEST</h3>
+        <!-- guestScore section -->
+        <p class="number" id="guessScore">0</p>
+        <!-- guesScore button -->
+        <div class="btn-el">
+          <button class="btn" onclick="guessPlus1()">+1</button>
+          <button class="btn" onclick="guessPlus2()">+2</button>
+          <button class="btn" onclick="guessPlus3()">+3</button>
+        </div>
+      </div>
+    </div>
+    <div class="reset-container">
+      <button id="reset" onclick="reset()">↻</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

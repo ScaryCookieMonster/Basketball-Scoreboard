@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  background-position: center;
+  width: 575px;
+  height: 385px;
+  margin: 50px auto;
+  background-color: #1b244a;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home,
+.guest {
+  color: #eeeeee;
+  font-family: Verdana;
+  margin-top: 40px;
+  font-size: 45px;
+  text-shadow: 0px 0px 5px black;
+}
+.number {
+  text-align: center;
+  color: #f94f6d;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 100px;
+  margin: 0px auto 10px;
+  background-color: #080001;
+  padding: 15px 0px;
+  border-radius: 5px;
+  width: 180px;
+
+}
+.btn-el {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.btn {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background-color: #1b244a;
+  color: #9aabd8;
+  padding: 10px;
+  border: 3px solid #9aabd8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.reset-container {
+  width: 575px;        
+  margin: 0 auto;     
+  text-align: center;  
+  margin-top: -130px;    
+}
+
+#reset {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background-color: #1b244a;
+  color: #9aabd8;
+  padding: 10px 20px;
+  border: 3px solid #9aabd8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
